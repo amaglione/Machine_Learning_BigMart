@@ -1,10 +1,18 @@
-# TP_AMq_BigMart.ipynb
+# ML_BigMart.ipynb
 
-Este es el trabajo practico final para la materia Aprendizaje de Maquina de la carrera de Especialización de Inteligencia Artificial.
+El presente trabajo tiene como objetivo principal la aplicación de un flujo de trabajo completo de un proyecto de *Machine Learning*. En este caso, se aborda un **problema de regresión supervisada** orientado a la predicción de ventas en tiendas.
 
-Se trata del analisis de un dataset de ventas de productos en diferentes locales. Buscamos predecir las ventas que tiene cada producto dependiendo del local donde se vendio.
+El dataset utilizado corresponde al conjunto de datos **Big Mart Sales Prediction**, disponible públicamente en [Kaggle](https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets/data). Este dataset se comprende de observaciones de ventas de ciertos productos (*items*) en determinados locales (*outlets*).
 
-En el notebook TP_AMq_BigMart.ipynb desarrollamos un pipeline que puede simplificarse como:
+El propósito principal del trabajo es **desarrollar un modelo predictivo capaz de estimar las ventas esperadas** en función de los atributos del producto y del establecimiento. Para ello, se aplicará el flujo de trabajo completo de *Machine Learning*, incluyendo:
+
+- Exploración y análisis descriptivo del conjunto de datos.  
+- Limpieza, preprocesamiento y transformación de variables.  
+- Entrenamiento y optimización de modelos de regresión.  
+- Evaluación del rendimiento mediante métricas adecuadas.  
+- Interpretación y conclusiones de los resultados obtenidos.
+
+En el notebook ML_BigMart.ipynb desarrollamos un pipeline que puede simplificarse como:
 
 #### Introducción y descripción del problema
 #### Importación de Librerías y Configuración Inicial
